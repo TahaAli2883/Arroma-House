@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aroma House Menu</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #070707;
+      color: #f5c800;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .page {
+      min-height: 273mm;
+      padding: 10mm;
+      border: 1.5px solid #f5c800;
+      background: #080808;
+    }
+    .brand {
+      text-align: center;
+      border-bottom: 1px solid rgba(245,200,0,.55);
+      padding-bottom: 8mm;
+      margin-bottom: 8mm;
+    }
+    .brand img {
+      width: 138mm;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto 4mm;
+    }
+    .brand p {
+      margin: 0;
+      color: #fff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+    h1 {
+      margin: 0 0 7mm;
+      text-align: center;
+      font-size: 32px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6mm;
+    }
+    .item {
+      border: 1px solid rgba(245,200,0,.55);
+      background: #101010;
+      break-inside: avoid;
+    }
+    .item img {
+      display: block;
+      width: 100%;
+      height: 46mm;
+      object-fit: cover;
+    }
+    .item-body {
+      padding: 5mm;
+      min-height: 42mm;
+    }
+    .kicker {
+      display: block;
+      margin-bottom: 2mm;
+      color: rgba(245,200,0,.7);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0 0 2.5mm;
+      font-size: 20px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 0;
+      color: rgba(255,255,255,.8);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+    .price {
+      margin-top: 4mm;
+      display: inline-block;
+      border: 1px solid #f5c800;
+      padding: 2mm 3mm;
+      color: #f5c800;
+      font-size: 15px;
+      font-weight: 800;
+    }
+    .footer {
+      margin-top: 8mm;
+      padding-top: 5mm;
+      border-top: 1px solid rgba(245,200,0,.55);
+      display: flex;
+      justify-content: space-between;
+      gap: 8mm;
+      color: rgba(255,255,255,.82);
+      font-size: 11px;
+      line-height: 1.55;
+    }
+    .footer strong {
+      color: #f5c800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="brand">
+      <img alt="Aroma House" src="aroma-house-logo.png">
+      <p>Taste · Elegance · Experience</p>
+    </section>
+    <h1>Menu Highlights</h1>
+    <section class="grid">
+      <article class="item">
+        <img alt="Aroma Crown Crust Pizza" src="pizza-crown-crust.png">
+        <div class="item-body">
+          <span class="kicker">Pizza</span>
+          <h2>Aroma Crown Crust Pizza</h2>
+          <p>Tender chicken, Aroma special sauce, premium mozzarella, fresh vegetables, and a crown-style crust.</p>
+          <span class="price">Regular 43 SAR</span>
+        </div>
+      </article>
+      <article class="item">
+        <img alt="Aroma Special Stuffed Pizza" src="pizza-stuffed-crust.png">
+        <div class="item-body">
+          <span class="kicker">Pizza</span>
+          <h2>Aroma Special Stuffed Pizza</h2>
+          <p>Loaded chicken, creamy cheese, fresh vegetables, and stuffed crust with cheese and kabab filling.</p>
+          <span class="price">Regular 43 SAR</span>
+        </div>
+      </article>
+      <article class="item">
+        <img alt="Grilled kebab skewers" src="food-bbq.jpg">
+        <div class="item-body">
+          <span class="kicker">BBQ</span>
+          <h2>Arabic & Pakistani BBQ</h2>
+          <p>Adana kabab, chicken kabab, shish tawook, tikka, and mixed platters.</p>
+          <span class="price">From 16 SAR</span>
+        </div>
+      </article>
+      <article class="item">
+        <img alt="Middle Eastern starters" src="food-starters.jpg">
+        <div class="item-body">
+          <span class="kicker">Starters</span>
+          <h2>Arabic Starters</h2>
+          <p>Hummus, mutabal, baba ganoush, fattoush, ayran, wraps, and fateer.</p>
+          <span class="price">From 5 SAR</span>
+        </div>
+      </article>
+      <article class="item">
+        <img alt="Biryani rice served in a copper bowl" src="food-biryani.jpg">
+        <div class="item-body">
+          <span class="kicker">Cuisine</span>
+          <h2>Asian Cuisine</h2>
+          <p>Mutton rosh, karahi, chicken handi, biryani, pulao, fried rice, and traditional sides.</p>
+          <span class="price">Ask for Prices</span>
+        </div>
+      </article>
+      <article class="item">
+        <img alt="Chocolate brownie dessert" src="food-dessert.jpg">
+        <div class="item-body">
+          <span class="kicker">Sweets</span>
+          <h2>Desserts</h2>
+          <p>Brownies, cookies, sundaes, tarts, donuts, eclairs, and banana walnut loaf.</p>
+          <span class="price">Ask for Prices</span>
+        </div>
+      </article>
+    </section>
+    <section class="footer">
+      <div>
+        <strong>Location</strong><br>
+        Al Manar Mall, Madinah Munawah KSA
+      </div>
+      <div>
+        <strong>Email</strong><br>
+        AromaHouse,Med@gmail.com
+      </div>
+      <div>
+        <strong>Service</strong><br>
+        Dine In · Take Away · Delivery
+      </div>
+    </section>
+  </main>
+</body>
+</html>

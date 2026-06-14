@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title data-i18n="page_title">Aroma House &mdash; Taste. Elegance. Experience.</title>
+    <link href="assets/aroma-crown-mark.png" rel="icon" type="image/png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&amp;family=Barlow:wght@300;400;500;600&amp;family=Cairo:wght@400;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav>
+        <a class="nav-logo" href="#">
+            <div class="nav-logo-icon">
+                <img alt="Aroma House crown mark" src="assets/aroma-crown-mark.png" />
+            </div>
+            <span class="nav-logo-text" data-i18n="nav_brand">Aroma House</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#menu" data-i18n="nav_menu">Menu</a></li>
+            <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+            <li><a href="#testimonials" data-i18n="nav_reviews">Reviews</a></li>
+            <li><a href="#reservation" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <a class="nav-cta" href="#reservation" data-i18n="nav_cta">Reserve a Table</a>
+            <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+                <span class="lang-en">AR</span>
+                <span class="lang-ar">EN</span>
+            </button>
+            <button aria-controls="mobileMenu" aria-expanded="false" aria-label="Menu" class="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#menu" data-i18n="nav_menu">Menu</a>
+        <a href="#experience" data-i18n="nav_experience">Experience</a>
+        <a href="#testimonials" data-i18n="nav_reviews">Reviews</a>
+        <a href="#reservation" data-i18n="nav_cta">Reserve a Table</a>
+    </div>
+    <!-- HERO -->
+    <section class="hero">
+        <!-- ambient glow -->
+        <div class="hero-glow"></div>
+        <!-- corner brackets -->
+        <div class="hero-corner hero-corner--tl"></div>
+        <div class="hero-corner hero-corner--tr"></div>
+        <div class="hero-corner hero-corner--bl"></div>
+        <div class="hero-corner hero-corner--br"></div>
+        <div class="hero-content">
+            <img alt="Aroma House" class="hero-logo" src="assets/aroma-house-logo.png" />
+        </div>
+    </section>
+    <!-- TICKER STRIP -->
+    <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker-track">
+            <span class="ticker-item">&#9670; Aroma Crown Crust</span>
+            <span class="ticker-item">&#9670; Aroma Special Stuffed Crust</span>
+            <span class="ticker-item">&#9670; Aroma Pepperoni Feast</span>
+            <span class="ticker-item">&#9670; Aroma Tikka Royale</span>
+            <span class="ticker-item">&#9670; Aroma Giant Pizza</span>
+            <span class="ticker-item">&#9670; Aroma Classic Beef Burger</span>
+            <span class="ticker-item">&#9670; Aroma Cheesy Supreme</span>
+            <span class="ticker-item">&#9670; Aroma Adana Kabab</span>
+            <span class="ticker-item">&#9670; Aroma Shish Tawook</span>
+            <span class="ticker-item">&#9670; Aroma Chicken Handi</span>
+            <span class="ticker-item">&#9670; Aroma Saffron Biryani</span>
+            <span class="ticker-item">&#9670; Aroma Mixed Grill Platter</span>
+            <!-- duplicate for seamless loop -->
+            <span class="ticker-item">&#9670; Aroma Crown Crust</span>
+            <span class="ticker-item">&#9670; Aroma Special Stuffed Crust</span>
+            <span class="ticker-item">&#9670; Aroma Pepperoni Feast</span>
+            <span class="ticker-item">&#9670; Aroma Tikka Royale</span>
+            <span class="ticker-item">&#9670; Aroma Giant Pizza</span>
+            <span class="ticker-item">&#9670; Aroma Classic Beef Burger</span>
+            <span class="ticker-item">&#9670; Aroma Cheesy Supreme</span>
+            <span class="ticker-item">&#9670; Aroma Adana Kabab</span>
+            <span class="ticker-item">&#9670; Aroma Shish Tawook</span>
+            <span class="ticker-item">&#9670; Aroma Chicken Handi</span>
+            <span class="ticker-item">&#9670; Aroma Saffron Biryani</span>
+            <span class="ticker-item">&#9670; Aroma Mixed Grill Platter</span>
+        </div>
+    </div>
+    <!-- FEATURES STRIP -->
+    <section class="features-strip">
+        <div class="feat-item">
+            <div class="feat-icon">&#128081;</div>
+            <div class="feat-body">
+                <strong data-i18n="feat1_title">Crown Crust Pizza</strong>
+                <span data-i18n="feat1_sub">Our signature creation</span>
+            </div>
+        </div>
+        <div class="feat-divider"></div>
+        <div class="feat-item">
+            <div class="feat-icon">&#128293;</div>
+            <div class="feat-body">
+                <strong data-i18n="feat2_title">Live Charcoal Grill</strong>
+                <span data-i18n="feat2_sub">Authentic Arabian BBQ</span>
+            </div>
+        </div>
+        <div class="feat-divider"></div>
+        <div class="feat-item">
+            <div class="feat-icon">&#127860;</div>
+            <div class="feat-body">
+                <strong data-i18n="feat3_title">12+ Signature Dishes</strong>
+                <span data-i18n="feat3_sub">Crafted with passion</span>
+            </div>
+        </div>
+        <div class="feat-divider"></div>
+        <div class="feat-item">
+            <div class="feat-icon">&#11088;</div>
+            <div class="feat-body">
+                <strong data-i18n="feat4_title">98% Guest Satisfaction</strong>
+                <span data-i18n="feat4_sub">Madinah's finest</span>
+            </div>
+        </div>
+        <div class="feat-divider"></div>
+        <div class="feat-item">
+            <div class="feat-icon">&#127913;</div>
+            <div class="feat-body">
+                <strong data-i18n="feat5_title">Special Mocktails</strong>
+                <span data-i18n="feat5_sub">Refreshing drinks &amp; more</span>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="about-body reveal">
+            <div class="section-eyebrow" data-i18n="about_eyebrow">Our Story</div>
+            <h2 class="section-title" data-i18n="about_title">Where Flavor<br />Becomes Art</h2>
+            <p data-i18n="about_p1">Born in the heart of Saudi Arabia, Aroma House is more than a restaurant &mdash; it is a sanctuary where centuries of culinary heritage collide with modern elegance. Every dish is a story told through spice, smoke, and precision.</p>
+            <p data-i18n="about_p2">Our chefs draw from the rich traditions of the Arabian Peninsula, sourcing the finest local ingredients and pairing them with techniques refined across three continents.</p>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-num">12+</span>
+                    <span class="stat-label" data-i18n="stat1">Signature Dishes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">98%</span>
+                    <span class="stat-label" data-i18n="stat2">Guest Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">3</span>
+                    <span class="stat-label" data-i18n="stat3">Award Nominations</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-visual reveal delay-15">
+            <div class="about-frame">
+                <div class="about-frame-inner">
+                    <svg fill="none" viewbox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="22" r="14" stroke="#F5C800" stroke-width="1.5"></circle>
+                        <path d="M16 44C16 36.268 22.268 30 30 30C37.732 30 44 36.268 44 44" stroke="#F5C800" stroke-width="1.5"></path>
+                    </svg>
+                    <span class="about-frame-text" data-i18n="about_photo">Restaurant Photo</span>
+                </div>
+            </div>
+            <div class="about-badge">
+                <span class="badge-num">&#9733;</span>
+                <span class="badge-text" data-i18n="badge">Fine<br />Dining</span>
+            </div>
+        </div>
+    </section>
+    <!-- MENU -->
+    <section class="menu" id="menu">
+        <div class="menu-header reveal">
+            <div>
+                <div class="section-eyebrow" data-i18n="menu_eyebrow">Our Selections</div>
+                <h2 class="section-title" data-i18n="menu_title">The Menu</h2>
+            </div>
+        </div>
+        <div class="menu-actions reveal delay-05">
+            <a class="menu-pdf-link" href="assets/aroma-with-prices.pdf" target="_blank" rel="noopener" data-i18n="menu_pdf">Open Full Menu PDF</a>
+        </div>
+        <div class="real-menu-grid reveal delay-10">
+            <button class="real-menu-card" data-menu="pizza" type="button">
+                <img alt="Fresh pizza served on a black plate" src="assets/food-pizza.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_pizza_kicker">Pizza</span>
+                    <h3 data-i18n="card_pizza_title">Aroma Special Pizza</h3>
+                    <p data-i18n="card_pizza_desc">Crown crust, stuffed crust, pepperoni, tikka, and giant pizza options.</p>
+                    <strong data-i18n="card_pizza_price">From 28 SAR</strong>
+                    <span class="real-menu-open" data-i18n="card_pizza_view">View Selection</span>
+                </div>
+            </button>
+            <button class="real-menu-card" data-menu="burgers" type="button">
+                <img alt="Juicy burger with fries on a dark restaurant table" src="assets/food-burger.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_burger_kicker">Burgers</span>
+                    <h3 data-i18n="card_burger_title">Aroma Burgers</h3>
+                    <p data-i18n="card_burger_desc">Classic beef, cheesy beef supreme, baziago, and crispy chicken.</p>
+                    <strong data-i18n="card_burger_price">From 28 SAR</strong>
+                    <span class="real-menu-open" data-i18n="card_burger_view">View Selection</span>
+                </div>
+            </button>
+            <button class="real-menu-card" data-menu="bbq" type="button">
+                <img alt="Grilled kebab skewers cooking over charcoal" src="assets/food-bbq.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_bbq_kicker">BBQ</span>
+                    <h3 data-i18n="card_bbq_title">Arabic &amp; Pakistani BBQ</h3>
+                    <p data-i18n="card_bbq_desc">Adana kabab, chicken kabab, shish tawook, tikka, and mixed platters.</p>
+                    <strong data-i18n="card_bbq_price">From 16 SAR</strong>
+                    <span class="real-menu-open" data-i18n="card_bbq_view">View Selection</span>
+                </div>
+            </button>
+            <button class="real-menu-card" data-menu="starters" type="button">
+                <img alt="Middle Eastern starters with hummus, falafel, and pita" src="assets/food-starters.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_starters_kicker">Starters</span>
+                    <h3 data-i18n="card_starters_title">Arabic Starters</h3>
+                    <p data-i18n="card_starters_desc">Hummus, mutabal, baba ganoush, fattoush, ayran, wraps, and fateer.</p>
+                    <strong data-i18n="card_starters_price">From 5 SAR</strong>
+                    <span class="real-menu-open" data-i18n="card_starters_view">View Selection</span>
+                </div>
+            </button>
+            <button class="real-menu-card" data-menu="asian" type="button">
+                <img alt="Biryani rice served in a copper bowl with sauces" src="assets/food-biryani.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_asian_kicker">Cuisine</span>
+                    <h3 data-i18n="card_asian_title">Asian Cuisine</h3>
+                    <p data-i18n="card_asian_desc">Mutton rosh, karahi, chicken handi, biryani, pulao, fried rice, and sides.</p>
+                    <strong data-i18n="card_asian_price">See PDF</strong>
+                    <span class="real-menu-open" data-i18n="card_asian_view">View Selection</span>
+                </div>
+            </button>
+            <button class="real-menu-card" data-menu="desserts" type="button">
+                <img alt="Chocolate brownie dessert on a dark plate" src="assets/food-dessert.jpg" />
+                <div class="real-menu-card-body">
+                    <span class="real-menu-kicker" data-i18n="card_desserts_kicker">Sweets</span>
+                    <h3 data-i18n="card_desserts_title">Desserts</h3>
+                    <p data-i18n="card_desserts_desc">Brownies, cookies, sundaes, tarts, donuts, eclairs, and loaves.</p>
+                    <strong data-i18n="card_desserts_price">See PDF</strong>
+                    <span class="real-menu-open" data-i18n="card_desserts_view">View Selection</span>
+                </div>
+            </button>
+        </div>
+    </section>
+    <div aria-hidden="true" aria-labelledby="menuModalTitle" class="menu-modal" id="menuModal" role="dialog">
+        <div class="menu-modal-panel">
+            <button aria-label="Close menu detail" class="menu-modal-close" type="button">&times;</button>
+            <div class="menu-modal-hero" id="menuModalHero"></div>
+            <div class="menu-modal-content">
+                <span class="real-menu-kicker" id="menuModalKicker"></span>
+                <h3 id="menuModalTitle"></h3>
+                <p id="menuModalIntro"></p>
+                <div class="menu-modal-items" id="menuModalItems"></div>
+            </div>
+        </div>
+    </div>
+    <!-- EXPERIENCE — alternating blocks -->
+    <div id="experience">
+        <!-- Block 1 -->
+        <div class="exp-block">
+            <div class="exp-text reveal">
+                <div class="section-eyebrow" data-i18n="exp1_eyebrow">The Ambience</div>
+                <h2 class="section-title" data-i18n="exp1_title">Dine Like<br />Royalty</h2>
+                <p data-i18n="exp1_p1">Step into a world of sculpted archways, hand-carved woodwork, and candlelit alcoves. Every corner of Aroma House is designed to evoke the grandeur of a Saudi palace &mdash; intimate, opulent, and timeless.</p>
+                <p data-i18n="exp1_p2">Whether you are celebrating a milestone or simply savoring a quiet evening, our space bends to your occasion.</p>
+            </div>
+            <div class="exp-image">
+                <div class="exp-image-placeholder text-gold">
+                    <svg fill="none" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <rect height="36" rx="2" stroke="currentColor" stroke-width="2" width="48" x="8" y="16"></rect>
+                        <circle cx="22" cy="30" r="6" stroke="currentColor" stroke-width="2"></circle>
+                        <path d="M8 44L22 32L34 42L44 30L56 44" stroke="currentColor" stroke-width="2"></path>
+                    </svg>
+                    <span data-i18n="exp1_photo">Interior Photo</span>
+                </div>
+            </div>
+        </div>
+        <!-- Block 2 -->
+        <div class="exp-block reverse">
+            <div class="exp-text reveal">
+                <div class="section-eyebrow" data-i18n="exp2_eyebrow">Private Dining</div>
+                <h2 class="section-title" data-i18n="exp2_title">Reserved<br />For You</h2>
+                <p data-i18n="exp2_p1">Our private majlis rooms offer an exclusive dining experience for families and corporate gatherings. Fully customizable &mdash; from the florals to the menu &mdash; for moments that deserve nothing less than perfection.</p>
+                <p data-i18n="exp2_p2">Accommodates groups of 8 to 40 guests with dedicated service staff and personalized menus.</p>
+            </div>
+            <div class="exp-image">
+                <div class="exp-image-placeholder text-black">
+                    <svg fill="none" viewbox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <rect height="36" rx="2" stroke="currentColor" stroke-width="2" width="48" x="8" y="16"></rect>
+                        <circle cx="22" cy="30" r="6" stroke="currentColor" stroke-width="2"></circle>
+                        <path d="M8 44L22 32L34 42L44 30L56 44" stroke="currentColor" stroke-width="2"></path>
+                    </svg>
+                    <span data-i18n="exp2_photo">Private Majlis Photo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-eyebrow reveal" data-i18n="testi_eyebrow">Guest Reviews</div>
+        <h2 class="section-title reveal delay-05" data-i18n="testi_title">What Our Guests Say</h2>
+        <div class="testimonials-grid">
+            <div class="testi-card reveal">
+                <div class="testi-stars">
+                    <span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span>
+                </div>
+                <p class="testi-text" data-i18n="testi1_text">"The Mutton Ouzi was an absolute revelation. We've dined across the Kingdom, and nothing comes close to the depth of flavor at Aroma House. The ambience made it a complete experience."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">A</div>
+                    <div>
+                        <div class="testi-name" data-i18n="testi1_name">Abdullah Al-Rashid</div>
+                        <div class="testi-role" data-i18n="testi1_role">Jeddah Resident</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-10">
+                <div class="testi-stars">
+                    <span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span>
+                </div>
+                <p class="testi-text" data-i18n="testi2_text">"We hosted a private family dinner in the majlis room &mdash; flawless service, the menu was tailored exactly to our preferences. Aroma House set a new standard for what a Saudi restaurant can be."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">N</div>
+                    <div>
+                        <div class="testi-name" data-i18n="testi2_name">Noura Al-Zahrani</div>
+                        <div class="testi-role" data-i18n="testi2_role">Riyadh, Business Owner</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-20">
+                <div class="testi-stars">
+                    <span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span>
+                </div>
+                <p class="testi-text" data-i18n="testi3_text">"The Saffron Qahwa alone is worth the visit. But every dish carries a soulfulness that is rare. Aroma House doesn't just feed you &mdash; it takes you somewhere. Unforgettable."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">K</div>
+                    <div>
+                        <div class="testi-name" data-i18n="testi3_name">Khalid Al-Otaibi</div>
+                        <div class="testi-role" data-i18n="testi3_role">Food Blogger, Makkah</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RESERVATION -->
+    <section class="reservation" id="reservation">
+        <div class="reveal">
+            <div class="section-eyebrow" data-i18n="res_eyebrow">Book Your Table</div>
+            <h2 class="section-title" data-i18n="res_title">Reserve<br />A Table</h2>
+            <p class="reservation-desc" data-i18n="res_desc">Secure your dining experience at Aroma House. For large groups or private events, call us directly and
+                our team will curate your evening.
+            </p>
+            <div class="res-contact-list">
+                <div class="res-contact-item">
+                    <div class="res-contact-icon">
+                        <svg fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.67 14.92 16.08 14.84 16.41 14.96C17.55 15.35 18.8 15.56 20.08 15.56C20.62 15.56 21.08 16.02 21.08 16.56V20.08C21.08 20.62 20.62 21.08 20.08 21.08C10.67 21.08 3 13.41 3 4C3 3.46 3.46 3 4 3H7.52C8.06 3 8.52 3.46 8.52 4C8.52 5.28 8.73 6.53 9.12 7.67C9.24 8 9.16 8.41 8.9 8.67L6.62 10.79Z"
+                                stroke="#F5C800" stroke-width="1.5">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="res-contact-text">
+                        <strong>
+                            Call Us
+                        </strong>
+                        <span>
+                            +966 12 345 6789
+                        </span>
+                    </div>
+                </div>
+                <div class="res-contact-item">
+                    <div class="res-contact-icon">
+                        <svg fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z"
+                                stroke="#F5C800" stroke-width="1.5">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="res-contact-text">
+                        <strong>
+                            Location
+                        </strong>
+                        <span>
+                            Al Manar Mall, Madinah Munawah KSA
+                        </span>
+                    </div>
+                </div>
+                <div class="res-contact-item">
+                    <div class="res-contact-icon">
+                        <svg fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 6.5H20V17.5H4V6.5Z" stroke="#F5C800" stroke-linejoin="round" stroke-width="1.5">
+                            </path>
+                            <path d="M4.5 7L12 12.5L19.5 7" stroke="#F5C800" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="1.5">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="res-contact-text">
+                        <strong>
+                            Email
+                        </strong>
+                        <span>
+                            AromaHouse,Med@gmail.com
+                        </span>
+                    </div>
+                </div>
+                <div class="res-contact-item">
+                    <div class="res-contact-icon">
+                        <svg fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="9" stroke="#F5C800" stroke-width="1.5">
+                            </circle>
+                            <path d="M12 6V12L16 14" stroke="#F5C800" stroke-linecap="round" stroke-width="1.5">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="res-contact-text">
+                        <strong>
+                            Hours
+                        </strong>
+                        <span>
+                            Daily: 12:00 PM &ndash; 12:00 AM
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="res-form reveal delay-15">
+            <h3 data-i18n="res_form_title">Make a Reservation</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label data-i18n="res_fname">First Name</label>
+                    <input placeholder="Mohammed" type="text" />
+                </div>
+                <div class="form-group">
+                    <label data-i18n="res_lname">Last Name</label>
+                    <input placeholder="Al-Rashid" type="text" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label data-i18n="res_phone">Phone Number</label>
+                    <input placeholder="+966 5X XXX XXXX" type="tel" />
+                </div>
+                <div class="form-group">
+                    <label data-i18n="res_guests">Guests</label>
+                    <select>
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3&ndash;4 Guests</option>
+                        <option>5&ndash;6 Guests</option>
+                        <option>7&ndash;10 Guests</option>
+                        <option>Large Group (10+)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label data-i18n="res_date">Date</label>
+                    <input type="date" />
+                </div>
+                <div class="form-group">
+                    <label data-i18n="res_time">Time</label>
+                    <select>
+                        <option>12:00 PM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>7:00 PM</option>
+                        <option>8:00 PM</option>
+                        <option>9:00 PM</option>
+                        <option>10:00 PM</option>
+                        <option>11:00 PM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label data-i18n="res_special">Special Request</label>
+                <input data-i18n-ph="res_special_ph" placeholder="Anniversary setup, dietary needs, etc." type="text" />
+            </div>
+            <button class="form-submit" data-i18n="res_submit">Confirm Reservation</button>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-brand-logo">
+                    <div class="nav-logo-icon">
+                        <img alt="Aroma House crown mark" src="assets/aroma-crown-mark.png" />
+                    </div>
+                    <span class="footer-brand-name" data-i18n="nav_brand">Aroma House</span>
+                </div>
+                <p data-i18n="footer_tagline">A Saudi dining experience rooted in heritage, elevated by craft. Taste. Elegance. Experience.</p>
+                <div class="footer-social">
+                    <a aria-label="Instagram" class="social-btn" href="#">&Iopf;</a>
+                    <a aria-label="X / Twitter" class="social-btn" href="#">&Xopf;</a>
+                    <a aria-label="Snapchat" class="social-btn" href="#">👻</a>
+                    <a aria-label="WhatsApp" class="social-btn" href="#">✉</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Navigate</h4>
+                <ul>
+                    <li><a href="#about" data-i18n="footer_nav_story">Our Story</a></li>
+                    <li><a href="#menu" data-i18n="footer_nav_menu">The Menu</a></li>
+                    <li><a href="#experience" data-i18n="footer_nav_exp">Experience</a></li>
+                    <li><a href="#testimonials" data-i18n="footer_nav_reviews">Reviews</a></li>
+                    <li><a href="#reservation" data-i18n="footer_nav_res">Reservations</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_dining_title">Dining</h4>
+                <ul>
+                    <li><a href="#" data-i18n="footer_dining_majlis">Private Majlis</a></li>
+                    <li><a href="#" data-i18n="footer_dining_corp">Corporate Events</a></li>
+                    <li><a href="#" data-i18n="footer_dining_family">Family Gatherings</a></li>
+                    <li><a href="#" data-i18n="footer_dining_seasonal">Seasonal Menus</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_find_title">Find Us</h4>
+                <p>Al Manar Mall<br />Madinah Munawah KSA<br /><br />+966 12 345 6789<br />AromaHouse,Med@gmail.com<br /><br />Open daily<br />12:00 PM &ndash; 12:00 AM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copy">&copy; 2026 Aroma House. All rights reserved. Madinah Munawah KSA.</p>
+            <div class="footer-bottom-links">
+                <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+                <a href="#" data-i18n="footer_terms">Terms</a>
+            </div>
+        </div>
+    </footer>
+    <!-- FLOATING WHATSAPP CTA -->
+    <a class="whatsapp-float" href="https://wa.me/966123456789" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="#25D366" />
+            <path d="M23.5 20.4c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.8-1.68-2.1-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.67-1.6-.92-2.2-.24-.57-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.38-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.1 4.48.71.31 1.27.5 1.7.63.72.23 1.37.2 1.89.12.58-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.34z" fill="white" />
+        </svg>
+        <span data-i18n="whatsapp_label">Order Now</span>
+    </a>
+    <script defer="True" src="app.js"></script>
+</body>
+
+</html>
